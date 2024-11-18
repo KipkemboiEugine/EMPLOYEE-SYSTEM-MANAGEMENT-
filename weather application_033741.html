@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Weather application</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+
+        }
+        body{
+            min-height: 100vh;
+            background: rgba(224,239,243);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrapper{
+            margin: 25px;
+            background-color: #faf9f9;
+            border-radius: 10px;
+            border:2px solid rgba(255,255,255,0.185);
+            padding: 50px;
+            margin:30px 0;
+
+        }
+        .search-bar input{
+            width: 70%;
+            height:50px;
+          background-color: rgba(224,239,243);
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          margin-left: 10px;
+          margin-top: 20px;
+          margin-bottom: 40px;
+
+        }
+        .search-bar a{
+            width: 100px;
+            height: 50px;
+            box-sizing: border-box;
+            background-color: rgb(149,6,206);
+            padding: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+        h1{
+            font-weight: 800;
+        }
+        p{
+            color: #686161;
+            line-height: 1.5;
+
+        }
+        .container{
+            width: 300px;
+            float: right;
+
+        }
+        .footer{
+            border-top: 1px solid #f9fe;
+            text-align: center;
+            padding-top: 15px;
+            color: rgba(39,33,66,0.4);
+        }
+
+    </style>
+    <body>
+        <div class="wrapper">
+            <div class="search-bar">
+                <input type="text"placeholder="Enter a city...">
+                <a href="#">search</a>
+                
+            </label>
+        </div>
+        
+        <br>
+        <br>
+        <div class="container">
+            <p><span style="font-size: 75px;">💥</span></p>
+            <span style="font-size: 105px;color: #000;">24&deg<sup>c</sup></span></p>
+
+        </div>
+        <h1>Paris</h1>
+        <br>
+        <p>Tuesday 07.45,moderate rain<br>Humidity:<b style="color:red;">87%</b> wind:<b style="color: red;">
+            7.2km/h</b></p>
+        <br>
+        <br>
+        <br><br><br><br><br>
+        
+        <footer>This project was coded by<b style="color: blue;text-decoration-line: underline;">
+             Eugine kipkemboi</b> and is <b style="color: blue;text-decoration-line: underline;">
+                on Github </b>and <b style="color: blue;text-decoration-line: underline;">
+
+                hosted on Netlify</b></footer>
+        </div>
+    </body>
+</head>
