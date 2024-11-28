@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial scale-1.0">
+    <head>
+        <title>Register Account</title>
+    </head>
+    <style>
+        h2{
+            color: black;
+            font-size: 45px;
+            margin-right: 20px;
+        }
+        label{
+            color: rgb(8, 8, 8);
+            
+        }
+        label.input{
+            max-width: max-content;
+            max-height: max-content;
+            margin-left: 20px;
+        }
+        
+
+            
+        
+        body{
+            background-color:white;
+            margin-top: 10px;
+            margin-left:100px;
+        }
+        form button{
+            padding-left: 100px;
+        }
+        .form input{
+            width: max-content;
+        }
+    
+
+    </style>
+    <body>
+        <form>
+            <h2>Register  Acccount</h2>
+            <label for="name">Full Name:</label>
+            <input type="text">&nbsp;&nbsp;<b style="color: red;">User name must be atleast 4 characters</b>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password"id="password">&nbsp;&nbsp;<b style="color: red;">Password must be at least 4 characters</b>
+            <br><br>
+            <label for="password">Confirm Password:</label>
+            <input type="password"id="password">&nbsp;&nbsp;<b style="color: red;">Password do not match</b>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email"id="email">&nbsp;&nbsp;<b style="color: red;">Invalid email Format</b><option>Format:john@gmail.com</option>
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="number"id="number">&nbsp;&nbsp;<b style="color: red;">Invalid phone number</b><option>Format: 0XXX-XXX-XXX</option>
+            <br>
+            <label for="code">Zip Code:</label>
+            <input type="zip code"id="code">&nbsp;&nbsp;<b style="color: red;">Invalid Zip code</b><option>Format:Use 5 or 9  digits Zip Code</option>
+            <br><br>
+            <label for="card type">Card type:</label>
+            
+            <select>
+                <option>visa</option>
+            </select>
+            <br>
+            
+            <label for="card number">Card Number:</label>
+            <input type="number"id="number">&nbsp;&nbsp;<b style="color: red;">Invalid card number Format</b><option>Format:1111-2222-3333-4444</option>
+            <label for="date">Expiration Date:</label>
+            <input type="date">&nbsp;&nbsp;<b style="color: red;">Invalid date Format</b><option>Format:YYYY-MM-DD</option>
+            <br><br>
+            <input type="button"value="Register">
+            <input type="button"value="Clear Form">
+
+
+        </form>
+    </body>
+</html>
